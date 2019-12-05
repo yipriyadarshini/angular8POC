@@ -1,1 +1,8 @@
-<p>Server Component123</p>
+
+<button class="btn btn-primary" [disabled]='!allowNewServer' (click)="getServerStatus()">Add button</button>
+
+<p>{{serverCreationStatus}}</p>
+
+<h4>Server Component123</h4>
+<hr>
+<p> server with id {{ serverID }} has status {{ getServerStatus() }}
