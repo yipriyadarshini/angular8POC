@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DirectivesampleComponent implements OnInit {
 
+  showSecret = false;
+
   constructor() { }
 
   ngOnInit() {
