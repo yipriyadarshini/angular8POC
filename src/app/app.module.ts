@@ -8,10 +8,11 @@ import { ServerComponent } from "./server/server.component";
 import { SuccessalertComponent } from './successalert/successalert.component';
 import { FailalertComponent } from './failalert/failalert.component';
 import { UsernameComponent } from './username/username.component';
+import { DirectivesampleComponent } from './directivesample/directivesample.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
-  declarations: [AppComponent, HelloComponent, ServerComponent, SuccessalertComponent, FailalertComponent, UsernameComponent],
+  declarations: [AppComponent, HelloComponent, ServerComponent, SuccessalertComponent, FailalertComponent, UsernameComponent, DirectivesampleComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
