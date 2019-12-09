@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./username.component.css']
 })
 export class UsernameComponent implements OnInit {
-
-  constructor() { }
+  checkUserNameButton = false;
+  userName: string = '';
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }
+
+  checkUserName() {
+    if(this.userName.length > 0) {
+      this.checkUserNameButton = true;
+    }
+  }
+
 
 }
