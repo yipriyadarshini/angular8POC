@@ -8,10 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class DirectivesampleComponent implements OnInit {
 
   showSecret = false;
+  log = [];
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  onToggleDetails() {
+    this.showSecret = !this.showSecret;
+    this.log.push(this.log.length + 1);
   }
 
 }
