@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 export class ServerComponent {
   serverID: number = 10;
   serverStatus: string = 'Offline';
+  serverName: string = 'TestServer';
 
   allowNewServer = false;
   serverCreationStatus = "No server was created";
